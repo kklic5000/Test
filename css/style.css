@@ -1,0 +1,279 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+body{
+	font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	box-sizing: border-box;
+}
+.wrap{
+	width: 1000px;
+	margin: 0 auto;
+}
+.topbar{
+	height: 30px;
+	background: #f6f6f6;
+}
+.topbar ul {
+	display: flex;
+	justify-content:flex-end;
+	padding-right: 10px;
+	padding-top: 4px;
+	font-size: 16px;
+	text-decoration: none;
+}
+.topbar ul a{
+	text-decoration: none;
+}
+.fb{
+	color: #4461a0;
+	padding-right:10px;
+	border-right: rgb(214, 214, 214) 1px solid;
+}
+.twitter{
+	color: rgb(8, 160, 233);
+	padding-left:8px;
+}
+.toplist{
+	display: flex;
+	justify-content: space-between;
+}
+.toplist ul{
+	display:flex;
+	justify-content: space-between;
+	font-size: 20px;
+	width: 350px;
+} 
+.toplist ul a{
+	color: #31d19f;
+	text-decoration: none;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 13px;
+}
+.toplist ul a:hover{
+	border-bottom: solid 4px #31d19f;
+}
+.toplist ul a:focus{
+	border-bottom: solid 4px #31d19f;
+}
+.toplist ul a:active{
+	background: #31d19f;
+	color:#FFF;
+}
+.banner p{
+	background-image:url(https://i.imgur.com/TFoWq8m.png);
+	height: 346px;
+	overflow:hidden;
+	text-indent: 101%;
+	word-spacing: nowrap;
+}
+.banner{
+	position: relative;
+}
+.banner h1{
+	color: #fff;
+	font-size: 33px;
+	position: absolute;
+	top: 100px;
+	line-height: 40px;
+	letter-spacing: 2px;
+	background-color: rgba(0, 0, 0, 0.3);
+	width: 960px;
+	padding-left: 40px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.content{
+	margin-bottom: 20px;
+	margin-top: 60px;
+}
+.course {
+	display: flex;
+	justify-content: space-between;
+	margin: 0 auto;
+
+}
+.course-item {
+	width: 300px;
+	padding: 10px;
+	box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.2);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-bottom: 30px;
+}
+.course-item img{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.rwd{
+	margin-top: 30px;
+	margin-bottom: 25px;
+}
+.JQuery{
+	margin-top: 10px;
+	margin-bottom: 8px;
+}
+.course-item h2{
+	text-align: center;
+	font-size: 22px;
+	font-weight: 500;
+}
+.course-item ul{
+	list-style: square;
+	list-style-position: inside;
+	line-height: 30px;
+}
+.course-item p{
+	line-height: 25px;
+	font-size: 18px;
+	margin-left: 15px;                                                                   
+    margin-top: 10px;
+}
+.contentlist{
+	text-align: left;
+	width: 100%;
+	margin-top: 60px;
+}
+.contentlist caption{
+	font-size: 27px;
+	font-weight: 400;
+	margin-bottom: 30px;
+}
+.class{
+	border-collapse:collapse;
+	margin: 0 auto;
+}
+.class thead th{
+	padding: 15px 60px;
+	background-color:#ebebeb;
+	font-size: 20px;
+	font-weight: 500;
+	border-top: rgb(204, 204, 204) 1px solid;
+	border-bottom: rgb(204, 204, 204) 1px solid;
+}
+.class tbody td{
+	padding: 15px 60px;
+	font-size: 20px;
+	border-top: rgb(204, 204, 204) 1px solid;
+	border-bottom: rgb(204, 204, 204) 1px solid;
+
+}
+.class tbody .color{
+	color: #2bb186;
+}
+.form{
+	background:linear-gradient(#196d52,#2bb186);
+	background:-webkit-linear-gradient(#196d52,#2bb186);
+	background:-o-linear-gradient(#196d52,#2bb186);
+	background:-moz-linear-gradient(#196d52,#2bb186);
+	margin-top: 60px;
+	height: 470px;
+}
+.form h4{
+	text-align: center;
+	font-size: 30px;
+	color: #FFF;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	letter-spacing: 1.2px;
+	line-height: 45px;
+}
+.input{
+	display: flex;
+	justify-content: space-between;
+}
+.inputword{
+	margin-left: 20px;
+}
+.inputself{
+	display: flex;
+	flex-direction: column;
+	color: #FFF;
+	margin-right: 30px;
+}
+.inputself label{
+	font-size: 18px;
+	padding-top: 10px;
+	padding-bottom: 5px;
+}
+.sent {
+	margin-left: 360px;
+	margin-top: 20px;
+}
+.bottom{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 80px;
+}
+.bottom img{
+	margin-top: 25px;
+}
+.miniword{
+	margin-top: 25px;
+	margin-right: 10px;
+	display: flex;
+	flex-direction: column;
+	text-indent : 5px;
+}
+.contact{
+	display: flex;
+}
+.phone{
+	display: flex;
+	margin-top: 10px;
+}
+.miniword p{
+	color: rgb(207, 24, 146);
+}
+.fillup:focus{
+	box-shadow:2px 3px 5px rgba(0, 0, 0, 0.5); 
+}
+.sent:hover{
+	box-shadow:0px 3px 3px rgba(0, 0, 0, 0.2); 
+}
